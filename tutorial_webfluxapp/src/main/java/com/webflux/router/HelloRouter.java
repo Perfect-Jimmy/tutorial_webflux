@@ -13,7 +13,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
  * Created by Jimmy. 2018/4/18  15:05
  */
 @Configuration
-public class HelloRouteConfigurer {
+public class HelloRouter {
 
     @Bean
     public RouterFunction<ServerResponse> routeCity(HelloHandler helloHandler) {
