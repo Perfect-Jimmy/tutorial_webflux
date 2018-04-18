@@ -12,7 +12,7 @@
     <module>tutorial_domain</module>
     <module>tutorial_repository</module>
     <module>tutorial_service</module>
-    <module>tutorial_fluxapp</module>
+    <module>tutorial_webfluxapp</module>
   </modules>
 
   <name>tutorial</name>
@@ -39,11 +39,6 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-webflux</artifactId>
       <exclusions>
-        <!--移除tomcat -->
-        <exclusion>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-tomcat</artifactId>
-        </exclusion>
         <!--移除默认logging -->
         <exclusion>
           <groupId>org.springframework.boot</groupId>
@@ -71,11 +66,11 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-log4j2</artifactId>
     </dependency>
-    <dependency>
+   <!-- <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-cassandra-reactive</artifactId>
-    <!--  <version>2.0.0.RELEASE</version>-->
-    </dependency>
+    &lt;!&ndash;  <version>2.0.0.RELEASE</version>&ndash;&gt;
+    </dependency>-->
     <!--测试-->
     <dependency>
       <groupId>org.springframework.boot</groupId>

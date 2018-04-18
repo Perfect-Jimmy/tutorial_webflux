@@ -4,13 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Created by Jimmy. 2018/4/18  12:51
+ * Created by Jimmy. 2018/4/18  14:53
  */
 @SpringBootApplication
-//@EnableWebFluxSecurity
 public class WebFluxStart {
 
-    public static void main(String[] args) {
-        //SpringApplication.run(WebFluxStart.class);
+    public static void main(String[] args){
+        SpringApplication.run(WebFluxStart.class,args);
     }
 }

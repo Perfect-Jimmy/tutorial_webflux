@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tutorial_fluxapp</artifactId>
+    <artifactId>tutorial_webfluxapp</artifactId>
 
-    <name>tutorial_fluxapp</name>
+    <name>tutorial_webfluxapp</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
